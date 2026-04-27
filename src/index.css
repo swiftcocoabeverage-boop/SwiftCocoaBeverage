@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+    /* Brand Roles */
+    --color-primary: #3d1b04; 
+    --color-secondary: #f6a117; 
+    --color-accent: #784022; 
+
+    --color-neutral-bg: #fffdf8; 
+    --color-neutral-surface: #FFFFFF; 
+
+    /* Typography Hierarchy */
+    --color-text-main: #2a160d; 
+    --color-text-muted: #6b5346; 
+    --color-text-inverse: #FFFFFF; 
+
+    /* Use this on dark backgrounds */
+    /* Hero Tint (Used for image overlays) */
+    --color-hero-tint: rgba(61, 27, 4, 0.70); 
+
+    /* Background Images - CHANGE THIS URL FOR NEW PROJECTS */
+    --background-image-hero-home: url('src/assets/images/hero.png');
+
+    /* Ticker animation */
+    --animate-ticker: ticker 20s linear infinite;
+
+    @keyframes ticker {
+        from {
+            transform: translateX(100%);
+        } to {
+            transform: translateX(-100%);
+        }
+    }
+}
