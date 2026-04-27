@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Ticker from "../components/Ticker";
 import React, { useState, useEffect } from 'react';
 import { ArrowUp } from 'lucide-react';
 import { useLocation } from "react-router-dom";
@@ -37,7 +36,7 @@ const RootLayout = () => {
 
     return(
         <div>
-			<Ticker />
+			
 			<Navbar />
 			<main className="text-primary">
 				<Outlet />
@@ -52,7 +51,6 @@ const RootLayout = () => {
                 	    </button>
             		)}
 			<Footer />
-			<Ticker />
         </div>
     )
 };

@@ -10,7 +10,9 @@ export default function Footer() {
                 
                 {/* Branding */}
                 <div className="space-y-6">
-                    <h3 className="text-3xl font-black tracking-tighter">{brand.logoText}<span className="text-accent">.</span></h3>
+                    <Link to="/" className="flex items-center gap-2">
+                        <img src={ brand.logo } alt="Swift Cocoa Beverage logo" className="h-30 w-auto object-contain"/>
+                    </Link>
                     <p className="opacity-60 max-w-xs">{brand.tagline}</p>
                     <div className="flex gap-4">
                         {contact.socials.map((social) => (
