@@ -59,7 +59,7 @@ export const siteData = {
     ],
     hero: {
         title: "Swift Cocoa Beverage",
-        subtitle: "A premium cocoa-based drink designed to promote wellness and energy for individuals and families.",
+        subtitle: "A premium RAW cocoa-based drink designed to promote wellness and energy for individuals and families.",
         ctaMain: "Become a Distributor",
         ctaSub: "Explore Services",
 	icon: HeartPulse,
@@ -201,13 +201,13 @@ export const siteData = {
         conditions: [
             "Must be a registered distributor",
             "Refer ten (10) new distributors under you or your team",
-            "Activate Stockistship with ₦169,000 (50 packs of 130g) OR ₦300,000 (50 packs of 250g)"
+            "Activate Stockistship with ₦338,000 (100 packs of 130g) OR ₦300,000 (50 packs of 250g), you can subsequently purchase at least 50 packs"
         ],
         stockistBenefits: [
             "Earn distributor bonuses and retail profits from your own store",
             "Earn 5% of total sales made at your centre monthly",
             "Earn 5% of Registration Fees made at your centre",
-            "Profit of ₦470 (130g) or ₦850 (250g) per pack sold to distributors"
+            "Profit of ₦470 (130g) or ₦850 (250g) per pack sold to distributors (you'd sell ₦3850 per 130g pack and ₦6850 per 250g pack to distributors)"
         ],
         distributorPerks: [
             { label: "Registration Fee", value: "₦7,500" },

@@ -65,7 +65,6 @@ export default function Footer() {
 		{/* contact */}
                 <div className="space-y-6">
                     <h4 className="text-lg font-bold">Get in touch</h4>
-                    <p className="opacity-60">Subscribe for weekly scouting reports and data updates.</p>
                     <div className="flex">
                         <ul className="space-y-4 text-sm">
                             <li className="flex items-start space-x-3">
@@ -74,7 +73,7 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center space-x-3">
                                 <contact.icon_2 className="w-5 h-5 text-primary shrink-0" />
-                                <span>{ contact.whatsapp_main }</span>
+                                <span>{ contact.whatsapp }</span>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <contact.icon_3 className="w-5 h-5 text-primary shrink-0" />

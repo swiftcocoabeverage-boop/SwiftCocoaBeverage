@@ -1,5 +1,6 @@
 import { siteData } from '../data/siteData';
-import { CheckCircle2, Star, Coins, ClipboardList } from 'lucide-react';
+import { CheckCircle2, Star, Coins, ClipboardList, BanknoteArrowUp } from 'lucide-react';
+import { Link } from "react-router-dom";
 
 const Distributor = () => {
     const { distributorInfo } = siteData;
@@ -20,6 +21,7 @@ const Distributor = () => {
                         <h3 className="text-2xl font-bold text-secondary mb-6 flex items-center gap-2">
                             <ClipboardList className="text-primary" /> Stockist Conditions
                         </h3>
+			<p className="mb-8 text-text-muted">Want to be a swift cocoa stockist?</p>
                         <ul className="space-y-4">
                             {distributorInfo.conditions.map((item, index) => (
                                 <li key={index} className="flex gap-3 text-text-main">
@@ -44,6 +46,16 @@ const Distributor = () => {
                             ))}
                         </ul>
                     </div>
+                </div>
+		
+		<div className="mt-20 text-center bg-accent/5 p-12 rounded-3xl border-2 border-dashed border-accent/20">
+                    <BanknoteArrowUp className="mx-auto text-primary mb-4" size={48} />
+                    <h2 className="text-2xl font-bold text-secondary mb-2">Want to be a Stockist?</h2>
+                    <p className="mb-8 text-text-muted">Make money on every sale.</p>
+                    <Link to="/contact" className="inline-block text-secondary bg-primary px-10 py-4 rounded-full font-bold text-lg hover:bg-secondary hover:text-text-inverse transition-all duration-300 shadow-lg"
+                    >
+                        Contact us right away
+                    </Link>
                 </div>
 
                 {/* Distributor Perks Grid */}
